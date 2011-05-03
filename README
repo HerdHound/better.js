@@ -1,0 +1,8 @@
+Better.js is a collection of not-so-random utility functions strapped onto the
+base JavaScript object prototypes. Code in this library has been collected from
+various sources which are attributed next to each of the snippets. Any code
+written by Branko Vukelic is released under the MIT license included with the
+source code. Other authors have their own terms of use, which you will find on
+respective pages at provided URLs. 
+
+Read the source code (better.js) for descriptions and copyright information.
