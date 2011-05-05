@@ -426,3 +426,20 @@ if (!Date.currentUTC) {
         t.getUTCHours(), t.getUTCMinutes(), t.getUTCMilliseconds());
     };
 }
+
+
+// AssertionError exception class (c)Branko Vukelic
+function AssertionError(message) { 
+    this.message = message; 
+}
+
+AssertionError.prototype.toString = function() {
+    return 'Assertion failed: ' + this.message;
+};
+
+// assert function (c)Branko Vukelic
+function assert(condition, message) {
+    if (!condition) {
+        throw new AssertionError(message);
+    }
+}
